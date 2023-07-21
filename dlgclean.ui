@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DlgClean</class>
+ <widget class="QDialog" name="DlgClean">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>1280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pbWash">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>192</y>
+     <width>157</width>
+     <height>157</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbClean">
+   <property name="geometry">
+    <rect>
+     <x>95</x>
+     <y>459</y>
+     <width>157</width>
+     <height>157</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbStop">
+   <property name="geometry">
+    <rect>
+     <x>311</x>
+     <y>979</y>
+     <width>178</width>
+     <height>97</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbUp">
+   <property name="geometry">
+    <rect>
+     <x>614</x>
+     <y>192</y>
+     <width>92</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbDown">
+   <property name="geometry">
+    <rect>
+     <x>614</x>
+     <y>271</y>
+     <width>92</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbInfo">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>1160</y>
+     <width>115</width>
+     <height>120</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbHome">
+   <property name="geometry">
+    <rect>
+     <x>718</x>
+     <y>0</y>
+     <width>82</width>
+     <height>82</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labTime">
+   <property name="geometry">
+    <rect>
+     <x>563</x>
+     <y>1180</y>
+     <width>237</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labDate">
+   <property name="geometry">
+    <rect>
+     <x>563</x>
+     <y>1225</y>
+     <width>237</width>
+     <height>38</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbTitle">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>274</width>
+     <height>82</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tvTimes">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>242</y>
+     <width>157</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbDown2">
+   <property name="geometry">
+    <rect>
+     <x>614</x>
+     <y>538</y>
+     <width>92</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QLabel" name="tvTimes2">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>510</y>
+     <width>157</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>20</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>100</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pbUp2">
+   <property name="geometry">
+    <rect>
+     <x>614</x>
+     <y>459</y>
+     <width>92</width>
+     <height>78</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="wndProgress" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>820</y>
+     <width>720</width>
+     <height>75</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="txInfo">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>720</y>
+     <width>720</width>
+     <height>75</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Arial</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>wndProgress</class>
+   <extends>QWidget</extends>
+   <header>wndprogress.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
